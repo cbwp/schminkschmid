@@ -1,0 +1,883 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Gallery\n"
+"POT-Creation-Date: 2017-09-07 19:32+0200\n"
+"PO-Revision-Date: 2017-09-07 19:32+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: t;t2;tc\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: blocks/simple_gallery/controller.php:33 controller.php:16
+msgid "Simple Gallery"
+msgstr "Simple Gallery"
+
+#: blocks/simple_gallery/controller.php:37 controller.php:20
+msgid "Create image gallery based on File Set."
+msgstr "Stwórz galerię zdjęć na podstawie zestawu plików."
+
+#: blocks/simple_gallery/controller.php:67
+msgid "Do not display caption"
+msgstr "Nie wyświetlaj opisu"
+
+#: blocks/simple_gallery/controller.php:68
+msgid "Display caption based on File Title"
+msgstr "Wyświetlaj opis na podstawie tytułu pliku"
+
+#: blocks/simple_gallery/controller.php:69
+msgid "Display common caption based on Page Name"
+msgstr "Wyświetlaj wspólny opis na podstawie nazwy strony"
+
+#: blocks/simple_gallery/controller.php:70
+msgid "Display common caption"
+msgstr "Wyświetlaj wspólny opis"
+
+#: blocks/simple_gallery/controller.php:191 blocks/simple_gallery/form.php:15
+msgid "File Set"
+msgstr "Opis w lightboxie"
+
+#: blocks/simple_gallery/controller.php:192 blocks/simple_gallery/form.php:131
+msgid "Phone (0-575px)"
+msgstr "Telefon (0-575px)"
+
+#: blocks/simple_gallery/controller.php:193 blocks/simple_gallery/form.php:138
+msgid "Tablet (576-991px)"
+msgstr "Tablet (576-991px)"
+
+#: blocks/simple_gallery/controller.php:194 blocks/simple_gallery/form.php:144
+msgid "Desktop (992px+)"
+msgstr "Komputer PC (992px+)"
+
+#: blocks/simple_gallery/controller.php:199
+#, php-format
+msgid "Field \"%s\" is required."
+msgstr "Pole \"%s\" jest wymagane."
+
+#: blocks/simple_gallery/controller.php:205
+msgid "To crop Thumbnails you need to specify width and height."
+msgstr "By móc przyciąć miniatury musisz podać szerokość i wysokość."
+
+#: blocks/simple_gallery/controller.php:209
+msgid "To crop Fullscreen Images you need to specify width and height."
+msgstr ""
+"By móc przyciąć pełnoekranowe obrazy musisz podać szerokość i wysokość."
+
+#: blocks/simple_gallery/form.php:7
+msgid "Basic information"
+msgstr "Podstawowe informacje"
+
+#: blocks/simple_gallery/form.php:8
+msgid "Dimensions"
+msgstr "Wymiary"
+
+#: blocks/simple_gallery/form.php:16
+#, php-format
+msgid ""
+"Order of Images in File Set can be changed <a href=\"%s\" class=\"js-link-to-"
+"file-set\" target=\"_blank\" rel=\"noopener\">here</a>."
+msgstr ""
+"Kolejność obrazów w zestawie plików może zostać  zmieniona <a href=\"%s\" "
+"class=\"js-link-to-file-set\" target=\"_blank\" rel=\"noopener\">tutaj</a>."
+
+#: blocks/simple_gallery/form.php:17
+#, php-format
+msgid ""
+"You can create/assign images to File Set in <a href=\"%s\" target=\"_blank\" "
+"rel=\"noopener\">File Manager</a>. List of File Sets can be found <a href="
+"\"%s\" class=\"js-link-to-file-set\" target=\"_blank\" rel=\"noopener"
+"\">here</a>."
+msgstr ""
+"Możesz tworzyć/przypisywać obrazy do zestawu plików w <a href=\"%s\" target="
+"\"_blank\" rel=\"noopener\">Menedżerze plików</a>. Listę wszystkich zestawów "
+"możesz znaleźć <a href=\"%s\" class=\"js-link-to-file-set\" target=\"_blank"
+"\" rel=\"noopener\">tutaj</a>."
+
+#: blocks/simple_gallery/form.php:23
+msgid "Lightbox caption"
+msgstr "Opis w lightboxie"
+
+#: blocks/simple_gallery/form.php:28
+msgid "Common caption"
+msgstr "Wspólny opis"
+
+#: blocks/simple_gallery/form.php:37
+msgid "Thumbnails"
+msgstr "Miniatury"
+
+#: blocks/simple_gallery/form.php:43 blocks/simple_gallery/form.php:87
+msgid "Width"
+msgstr "Szerokość"
+
+#: blocks/simple_gallery/form.php:54 blocks/simple_gallery/form.php:98
+msgid "Height"
+msgstr "Wysokość"
+
+#: blocks/simple_gallery/form.php:65 blocks/simple_gallery/form.php:109
+msgid "Leave fields empty to display original Images."
+msgstr "Zostaw pola puste by wyświetlić oryginalne obrazy."
+
+#: blocks/simple_gallery/form.php:74 blocks/simple_gallery/form.php:118
+msgid "Crop (requires width and height)"
+msgstr "Przytnij (wymaga podania szerokości i wysokości)"
+
+#: blocks/simple_gallery/form.php:81
+msgid "Fullscreen Images"
+msgstr "Obrazy pełnoekranowe"
+
+#: blocks/simple_gallery/form.php:125
+msgid "Number of columns"
+msgstr "Liczba kolumn"
+
+#: blocks/simple_gallery/form.php:152
+msgid "Other"
+msgstr "Inne"
+
+#: blocks/simple_gallery/form.php:158
+msgid "Space between Images"
+msgstr "Przerwa pomiędzy obrazami"
+
+#: blocks/simple_gallery/form.php:173
+msgid "Required fields"
+msgstr "Wymagane pola"
+
+#: blocks/simple_gallery/view.php:34
+msgid "No images were found."
+msgstr "Nie znaleziono żadnych obrazów."
+
+#: controllers/localization.php:29
+#, php-format
+msgid "%sThe image%s could not be loaded."
+msgstr "%sObraz%s nie mógł zostać wczytany."
+
+#: controllers/localization.php:30
+msgid "Close (Esc)"
+msgstr "Zamknij (Esc)"
+
+#: controllers/localization.php:31
+msgid "Loading..."
+msgstr "Trwa wczytywanie..."
+
+#: controllers/localization.php:32
+msgid "Previous (Left arrow key)"
+msgstr "Poprzednie (strzałka w lewo)"
+
+#: controllers/localization.php:33
+msgid "Next (Right arrow key)"
+msgstr "Następne (strzałka w prawo)"
+
+#: controllers/localization.php:34
+msgid "%curr% of %total%"
+msgstr "%curr% z %total%"
+
+#~ msgid "Access Denied."
+#~ msgstr "Dostęp zabroniony."
+
+#~ msgid "Grand Gallery"
+#~ msgstr "Grand Gallery"
+
+#~ msgid "Thumbnail Width"
+#~ msgstr "Szerokość miniatury"
+
+#~ msgid "Thumbnail Height"
+#~ msgstr "Wysokość miniatury"
+
+#~ msgid "Fullscreen Image Width"
+#~ msgstr "Szerokość obrazu pełnoekranowego"
+
+#~ msgid "Fullscreen Image Height"
+#~ msgstr "Wysokość obrazu pełnoekranowego"
+
+#~ msgid "Field %s should be a number greater or even 0 (or empty)."
+#~ msgstr ""
+#~ "Pole %s powinno być liczbą większą lub równą 0 (albo pozostawione puste)."
+
+#~ msgid "Field %s should be a number between 1 and 10."
+#~ msgstr "Pole %s powinno być liczbą z przedziału 1-10."
+
+#~ msgid "Name"
+#~ msgstr "Nazwa"
+
+#~ msgid "Save"
+#~ msgstr "Zapisz"
+
+#~ msgid "What do you want to do with selected Folder?"
+#~ msgstr "Co chcesz zrobić z wybranym folderem?"
+
+#~ msgid "Delete it and all Folders and Files inside it"
+#~ msgstr "Usuń go i wszystkie znajdujące się w nim pliki i foldery"
+
+#~ msgid "Delete"
+#~ msgstr "Usuń"
+
+#~ msgid "Parent Folder"
+#~ msgstr "Folder nadrzędny"
+
+#~ msgid "Create"
+#~ msgstr "Utwórz"
+
+#~ msgid "What do you want to do with selected File Set?"
+#~ msgstr "Co chcesz zrobić z wybranym zestawem plików?"
+
+#~ msgid "Delete only File Set"
+#~ msgstr "Usuń tylko zestaw plików"
+
+#~ msgid "Delete File Set and Images"
+#~ msgstr "Usuń zestaw plików i powiązane z nim obrazy"
+
+#~ msgid "What do you want to do with selected File?"
+#~ msgstr "Co chcesz zrobić z wybranym plikiem?"
+
+#~ msgid "Remove it from this Gallery"
+#~ msgstr "Usuń go z tej galerii"
+
+#~ msgid "Remove it from current File Set"
+#~ msgstr "Usuń go obecnego zestawu plików"
+
+#~ msgid "Permanently delete it from CMS"
+#~ msgstr "Bezpowrotnie usuń go z CMSa"
+
+#~ msgid "Gallery is based on:"
+#~ msgstr "Galeria jest oparta o:"
+
+#~ msgid "Folder"
+#~ msgstr "Folder"
+
+#~ msgid "Edit Folder"
+#~ msgstr "Edytuj folder"
+
+#~ msgid "Delete Folder"
+#~ msgstr "Usuń folder"
+
+#~ msgid "Create new Folder"
+#~ msgstr "Utwórz nowy folder"
+
+#~ msgid "Edit File Set"
+#~ msgstr "Edytuj zestaw plików"
+
+#~ msgid "Delete File Set"
+#~ msgstr "Usuń zestaw plików"
+
+#~ msgid "Create new File Set"
+#~ msgstr "Utwórz nowy zestaw plików"
+
+#~ msgid "Add / order Images"
+#~ msgstr "Dodaj / zmień kolejność obrazów"
+
+#~ msgid "Edit Images"
+#~ msgstr "Edytuj obrazy"
+
+#~ msgid "Upload / Select Images from File Manager"
+#~ msgstr "Wgraj / Wybierz obrazy z Managera plików"
+
+#~ msgid "Upload / Assign Images to selected File Set"
+#~ msgstr "Wgraj / Przypisz obrazy do wybranego zestawu plików"
+
+#~ msgid "Upload / Move Images to selected Folder"
+#~ msgstr "Wgraj / Przenieś obrazy do wybranego folderu"
+
+#~ msgid "Refresh list"
+#~ msgstr "Odśwież listę"
+
+#~ msgid "Do you want to display Titles and Descriptions?"
+#~ msgstr "Czy chcesz wyświetlić tytuły i opisy?"
+
+#~ msgid "Title display options"
+#~ msgstr "Opcje wyświetlania tytułów"
+
+#~ msgid "Remove extensions"
+#~ msgstr "Usuń rozszerzenia"
+
+#~ msgid "Remove counter"
+#~ msgstr "Usuń licznik"
+
+#~ msgid "Regex removal pattern"
+#~ msgstr "Kod regex do usuwania"
+
+#~ msgid ""
+#~ "Value from the field below will be used as variable in following function:"
+#~ msgstr ""
+#~ "Wartość z pola poniżej zostanie użyta jako zmienna w następującej funkcji:"
+
+#~ msgid ""
+#~ "Default pattern %s will remove endings %s etc. from the end of Title."
+#~ msgstr "Domyślny wzór %s usunie zakończenia %s itd. z końca tytułu."
+
+#~ msgid "Replace underscores with spaces"
+#~ msgstr "Zamień dolne podkreślenia na spacje"
+
+#~ msgid "Replace hyphens with spaces"
+#~ msgstr "Zamień myślniki na spacje"
+
+#~ msgid "Remove repeated spaces"
+#~ msgstr "Usuń powtarzające się spacje"
+
+#~ msgid "Lowercase all letters"
+#~ msgstr "Wszystkie znaki zapisane małymi literami"
+
+#~ msgid "Uppercase first letter"
+#~ msgstr "Pierwszy znak zapisany wielką literą"
+
+#~ msgid "Uppercase every word"
+#~ msgstr "Pierwszy znak każdego słowa zapisany wielką literą"
+
+#~ msgid "Uppercase all letters"
+#~ msgstr "Wszystkie znaki zapisane wielkimi literami"
+
+#~ msgid "Display current Page Name"
+#~ msgstr "Wyświetl tytuł bieżącej strony"
+
+#~ msgid "Display current Page Description"
+#~ msgstr "Wyświetl opis bieżącej strony"
+
+#~ msgid "Title and description"
+#~ msgstr "Tytuł i opis"
+
+#~ msgid "Title..."
+#~ msgstr "Tytuł..."
+
+#~ msgid "Description..."
+#~ msgstr "Opis..."
+
+#~ msgid "Get data"
+#~ msgstr "Pobierz dane"
+
+#~ msgid ""
+#~ "Restore Titles and Descriptions from the last saved version of this block"
+#~ msgstr "Przywróć tytuły i opisy z ostatniej zapisanej wersji bloku"
+
+#~ msgid "Restore last saved data"
+#~ msgstr "Przywróć ostatnio zapisane dane"
+
+#~ msgid "Get Titles from File Attributes"
+#~ msgstr "Pobierz tytuły z atrybutów plików"
+
+#~ msgid "Get Descriptions from File Attributes"
+#~ msgstr "Pobierz opisy z atrybutów plików"
+
+#~ msgid "Clear"
+#~ msgstr "Wyczyść"
+
+#~ msgid "Clear all Titles"
+#~ msgstr "Wyczyść wszystkie tytuły"
+
+#~ msgid "Clear all Descriptions"
+#~ msgstr "Wyczyść wszystkie opisy"
+
+#~ msgid "Titles"
+#~ msgstr "Tytuły"
+
+#~ msgid "(\" - 001\", \" - 002\") etc."
+#~ msgstr "(\" - 001\", \" - 002\") itd."
+
+#~ msgid "Sort images"
+#~ msgstr "Zmień kolejność obrazów"
+
+#~ msgid "Sort by Title field"
+#~ msgstr "Sortuj po polu tytuł"
+
+#~ msgid "Copy"
+#~ msgstr "Skopiuj"
+
+#~ msgid "Type something..."
+#~ msgstr "Wpisz coś..."
+
+#~ msgid "to all"
+#~ msgstr "do wszystkich pól"
+
+#~ msgid "Descriptions"
+#~ msgstr "Opisy"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "About authors"
+#~ msgstr "O autorach"
+
+#~ msgid "Package created by"
+#~ msgstr "Paczka stworzona przez"
+
+#~ msgid "Website"
+#~ msgstr "Strona www"
+
+#~ msgid "Oops! Something went wrong..."
+#~ msgstr "Ups! Coś poszło nie tak..."
+
+#~ msgid "Loading images, please wait..."
+#~ msgstr "Trwa wczytywanie obrazów, proszę czekać..."
+
+#~ msgid "You haven't selected File Set or Folder."
+#~ msgstr "Nie wybrano zestawu plików lub folderu."
+
+#~ msgid "You have to enter a Name."
+#~ msgstr "Musisz podać nazwę."
+
+#~ msgid "Delete File"
+#~ msgstr "Usuń plik"
+
+#~ msgid ""
+#~ "Are you sure you want to refresh image list? \\nAll non-saved data "
+#~ "(order, custom titles and descriptions etc.) will be lost."
+#~ msgstr ""
+#~ "Czy jesteś pewien, że chcesz odświeżyć listę obrazów? \\nWszelkie "
+#~ "niezapisane dane (kolejność, tytuły, opisy itd.) zostaną bezpowrotnie "
+#~ "utracone."
+
+#~ msgid "You can change Global Settings for all blocks here:"
+#~ msgstr "Tutaj możesz zmienić ustawienia globalne dla wszystkich bloków:"
+
+#~ msgid "You can enable automatic resizing of uploaded Images here:"
+#~ msgstr ""
+#~ "Tutaj możesz włączyć automatyczną zmianę wielkości wgrywanych obrazów:"
+
+#~ msgid "Image Uploading"
+#~ msgstr "Wgrywanie obrazów"
+
+#~ msgid "Custom CSS class"
+#~ msgstr "Własna klasa CSS"
+
+#~ msgid "Enable custom settings for this block."
+#~ msgstr "Włącz niestandardowe ustawienia dla tego bloku."
+
+#~ msgid "Texts"
+#~ msgstr "Teksty"
+
+#~ msgid "Thumbnails - Hover"
+#~ msgstr "Miniatury - po najechaniu kursorem"
+
+#~ msgid "Image generation method"
+#~ msgstr "Metoda generowania obrazów"
+
+#~ msgid "Thumbnail type"
+#~ msgstr "Typ miniatury"
+
+#~ msgid ""
+#~ "Thumbnail types can be created/modified <a href=\"%s\" target=\"_blank\" "
+#~ "rel=\"noopener\">here</a>. It is best to create/modify thumbnail types "
+#~ "before uploading images (because you will need to rescan files otherwise)."
+#~ "<br/> To rescan image go to \"File Manager\", right click on selected "
+#~ "image, select \"Properties\" and click \"Rescan\" button."
+#~ msgstr ""
+#~ "Typy miniatur mogą zostać utworzone/zmodyfikowane <a href=\"%s\" target="
+#~ "\"_blank\" rel=\"noopener\">tutaj</a>. Jest zalecane, by utworzyć/"
+#~ "zmodyfikować typy miniatur przed wgraniem obrazów (ponieważ w przeciwnym "
+#~ "razie musiałbyś jeszcze raz przeskanować pliki). <br/> By przeskanować "
+#~ "pliki, przejdź do Menedżera plików, kliknij prawym przyciskiem myszy na "
+#~ "wybrany obraz, wybierz \"Właściwości\" i kliknij przycisk \"Przeskanuj\"."
+
+#~ msgid "Gallery Title"
+#~ msgstr "Tytuł galerii"
+
+#~ msgid "Tag"
+#~ msgstr "Tag"
+
+#~ msgid "Alignment"
+#~ msgstr "Wyrównanie"
+
+#~ msgid "Left"
+#~ msgstr "Do lewej"
+
+#~ msgid "Center"
+#~ msgstr "Wyśrodkowane"
+
+#~ msgid "Right"
+#~ msgstr "Do prawej"
+
+#~ msgid "Justify"
+#~ msgstr "Wyjustowane"
+
+#~ msgid "Gallery Description"
+#~ msgstr "Opis galerii"
+
+#~ msgid "CSS Filter"
+#~ msgstr "Filtr CSS"
+
+#~ msgid "Opacity (0-100)"
+#~ msgstr "Przezroczystość (0-100)"
+
+#~ msgid "Border"
+#~ msgstr "Obramowanie"
+
+#~ msgid "Add border around Images"
+#~ msgstr "Dodaj obramowanie wokół obrazów"
+
+#~ msgid "Border Width"
+#~ msgstr "Szerokość obramowania"
+
+#~ msgid "Border Color"
+#~ msgstr "Kolor obramowania"
+
+#~ msgid "Space between Border and Image"
+#~ msgstr "Przerwa pomiędzy obramowaniem a obrazem"
+
+#~ msgid "Animation"
+#~ msgstr "Animacja"
+
+#~ msgid "Overlay"
+#~ msgstr "Warstwa pokrywająca"
+
+#~ msgid "Color"
+#~ msgstr "Kolor"
+
+#~ msgid "Overlay Elements"
+#~ msgstr "Elementy warstwy pokrywającej"
+
+#~ msgid "Color 2"
+#~ msgstr "Kolor 2"
+
+#~ msgid "Displayed Elements"
+#~ msgstr "Wyświetlane elementy"
+
+#~ msgid "Title"
+#~ msgstr "Tytuł"
+
+#~ msgid "Description"
+#~ msgstr "Opis"
+
+#~ msgid "Button"
+#~ msgstr "Przycisk"
+
+#~ msgid "Icon"
+#~ msgstr "Ikona"
+
+#~ msgid "Share"
+#~ msgstr "Udostępnij"
+
+#~ msgid "Toggle fullscreen"
+#~ msgstr "Przełącz widok pełnoekranowy"
+
+#~ msgid "Zoom in/out"
+#~ msgstr "Powiększ/pomniejsz"
+
+#~ msgid "Previous (arrow left)"
+#~ msgstr "Poprzednie (strzałka w lewo)"
+
+#~ msgid "Next (arrow right)"
+#~ msgstr "Następne (strzałka w prawo)"
+
+#~ msgid "Images"
+#~ msgstr "Obrazy"
+
+#~ msgid "Settings"
+#~ msgstr "Ustawienia"
+
+#~ msgid "Block Settings"
+#~ msgstr "Ustawienia bloków"
+
+#~ msgid "Folder doesn't exist."
+#~ msgstr "Folder nie istnieje."
+
+#~ msgid "Folder name has been changed."
+#~ msgstr "Nazwa folderu została zmieniona."
+
+#~ msgid "Folder has been deleted."
+#~ msgstr "Folder został usunięty."
+
+#~ msgid "Folder has been created."
+#~ msgstr "Folder został utworzony."
+
+#~ msgid "File Set doesn't exist."
+#~ msgstr "Zestaw plików nie istnieje."
+
+#~ msgid "File Set Name has been changed."
+#~ msgstr "Nazwa zestawu plików została zmieniona."
+
+#~ msgid "File Set and Images have been deleted."
+#~ msgstr "Zestaw plików i powiązane z nim obrazy zostały usunięte."
+
+#~ msgid "File Set has been deleted."
+#~ msgstr "Zestaw plików został usunięty."
+
+#~ msgid "File Set has been created."
+#~ msgstr "Zestaw plików został utworzony."
+
+#~ msgid "File doesn't exist."
+#~ msgstr "Plik nie istnieje."
+
+#~ msgid "File has been deleted."
+#~ msgstr "Plik został usunięty."
+
+#~ msgid "Images have been selected."
+#~ msgstr "Obrazy zostały wybrane."
+
+#~ msgid "File Type is not supported."
+#~ msgstr "Typ pliku nie jest wspierany."
+
+#~ msgid "Fileset doesn't exist."
+#~ msgstr "Zestaw plikó nie istnieje."
+
+#~ msgid "File already belong to selected Fileset."
+#~ msgstr "Plik już należy do wybranego zestawu plików."
+
+#~ msgid "Images have been added."
+#~ msgstr "Obrazy zostały dodane."
+
+#~ msgid "Share on Facebook"
+#~ msgstr "Podziel się na Facebooku"
+
+#~ msgid "Tweet"
+#~ msgstr "Tweetnij"
+
+#~ msgid "Pin it"
+#~ msgstr "Przypnij"
+
+#~ msgid "Download image"
+#~ msgstr "Pobierz obraz"
+
+#~ msgid "Global Settings has been set to default values."
+#~ msgstr "Ustawienia globalne zostały przywrócone do domyślnych wartości."
+
+#~ msgid "Settings were successfully saved."
+#~ msgstr "Ustawienia zostały pomyślnie zapisane."
+
+#~ msgid "Open in lightbox"
+#~ msgstr "Otwórz w lightboxie"
+
+#~ msgid "Link to file (from File Manager)"
+#~ msgstr "Link do pliku (z managera plików)"
+
+#~ msgid "Link to page (from Sitemap)"
+#~ msgstr "Link do strony (z mapy strony)"
+
+#~ msgid "Link to external url"
+#~ msgstr "Link zewnętrzny"
+
+#~ msgid "Disable link"
+#~ msgstr "Wyłącz linkowanie"
+
+#~ msgid "Choose Image"
+#~ msgstr "Wybierz obraz"
+
+#~ msgid "Open in new window"
+#~ msgstr "Otwórz w nowym oknie"
+
+#~ msgid "Force download"
+#~ msgstr "Wymuś pobranie"
+
+#~ msgid "External url"
+#~ msgstr "Link zewnętrzny"
+
+#~ msgid "Move to top"
+#~ msgstr "Przesuń na górę"
+
+#~ msgid "Move up"
+#~ msgstr "Przesuń o 1 poziom wyżej"
+
+#~ msgid "Enter number to force position during block save"
+#~ msgstr "Wpisz liczbę, by wymusić pozycję podczas zapisu bloku"
+
+#~ msgid "Move down"
+#~ msgstr "Przesuń o 1 poziom niżej"
+
+#~ msgid "Move to bottom"
+#~ msgstr "Przesuń na dół"
+
+#~ msgid "Reset Global Settings"
+#~ msgstr "Przywróć wartości domyślne"
+
+#~ msgid "Go back"
+#~ msgstr "Wróć"
+
+#~ msgid ""
+#~ "These are global settings for all galleries, which you can override in "
+#~ "every single block if necessary."
+#~ msgstr ""
+#~ "Poniżej znajdują się ustawienia globalne dla wszystkich galerii, które w "
+#~ "razie potrzeb możesz nadpisać w każdym pojedynczym bloku."
+
+#~ msgid "Button Text"
+#~ msgstr "Tekst na przycisku"
+
+#~ msgid "Do you want to reset all Global Settings to default values?"
+#~ msgstr "Czy chcesz przywrócić domyślne wartości ustawień globalnych?"
+
+#~ msgid "Default Gallery Type when adding block"
+#~ msgstr "Wybrany typ galerii podczas dodawania bloku"
+
+#~ msgid "Restrict File Set selection to those starting with:"
+#~ msgstr "Ogranicz wybór zestawów plików do tych zaczynających się od:"
+
+#~ msgid "Restrict Folder selection to those located under:"
+#~ msgstr "Ogranicz wybór folderów do tych znajdujących się poniżej:"
+
+#~ msgid "PhotoSwipe"
+#~ msgstr "PhotoSwipe"
+
+#~ msgid "Background"
+#~ msgstr "Tło"
+
+#~ msgid "Background Opacity (0-100)"
+#~ msgstr "Przezroczystość tła (0-100)"
+
+#~ msgid "Top Bar Background and Opacity"
+#~ msgstr "Kolor i przezroczystość górnego paska"
+
+#~ msgid "Bottom Bar Background and Opacity"
+#~ msgstr "Kolor i przezroczystość dolnego paska"
+
+#~ msgid "Display Counter"
+#~ msgstr "Wyświetl licznik"
+
+#~ msgid "Display Zoom Icon"
+#~ msgstr "Wyświetl ikonę zoomu"
+
+#~ msgid "Display Fullscreen Icon"
+#~ msgstr "Wyświetl ikonę widoku pełnoekranowego"
+
+#~ msgid "Display Share Icon"
+#~ msgstr "Wyświetl ikonę udostępniania"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "Pinterest"
+#~ msgstr "Pinterest"
+
+#~ msgid "Download"
+#~ msgstr "Pobierz"
+
+#~ msgid "None"
+#~ msgstr "Brak"
+
+#~ msgid "Files"
+#~ msgstr "Pliki"
+
+#~ msgid "Magnific Popup"
+#~ msgstr "Magnific Popup"
+
+#~ msgid "No"
+#~ msgstr "Nie"
+
+#~ msgid "Yes, get values directly from File Attributes"
+#~ msgstr "Tak, pobierz wartości bezpośrednio z atrybutów plików"
+
+#~ msgid "Yes, get values from current Page"
+#~ msgstr "Tak, pobierz wartości z obecnej strony"
+
+#~ msgid "Yes, set the same values for all Images"
+#~ msgstr "Tak, ustaw takie same wartości dla każdego obrazu"
+
+#~ msgid "Yes, set different values for every Image"
+#~ msgstr "Tak, ustaw różne wartości dla każdego obrazu"
+
+#~ msgid "Use image helper"
+#~ msgstr "Użyj image helpera"
+
+#~ msgid "Use concrete5 thumbnail system"
+#~ msgstr "Użyj systemu miniatur c5"
+
+#~ msgid "Automatic"
+#~ msgstr "Automatycznie"
+
+#~ msgid "Retina"
+#~ msgstr "Retina"
+
+#~ msgid "Black and white"
+#~ msgstr "Czarno-biały"
+
+#~ msgid "Sepia"
+#~ msgstr "Sepia"
+
+#~ msgid "Blur"
+#~ msgstr "Rozmycie"
+
+#~ msgid "Xpro 2"
+#~ msgstr "Xpro 2"
+
+#~ msgid "Valencia"
+#~ msgstr "Valencia"
+
+#~ msgid "Early bird"
+#~ msgstr "Early bird"
+
+#~ msgid "1977"
+#~ msgstr "1977"
+
+#~ msgid "Aden"
+#~ msgstr "Aden"
+
+#~ msgid "Brooklyn"
+#~ msgstr "Brooklyn"
+
+#~ msgid "Hudson"
+#~ msgstr "Hudson"
+
+#~ msgid "Mayfair"
+#~ msgstr "Mayfair"
+
+#~ msgid "No overlay"
+#~ msgstr "Brak warstwy pokrywającej"
+
+#~ msgid "Fade"
+#~ msgstr "Stopniowe przygasanie"
+
+#~ msgid "Scale"
+#~ msgstr "Skalowanie"
+
+#~ msgid "Slide from left"
+#~ msgstr "Przesunięcie od lewej"
+
+#~ msgid "Slide from right"
+#~ msgstr "Przesunięcie od prawej"
+
+#~ msgid "Slide from top"
+#~ msgstr "Przesunięcie od góry"
+
+#~ msgid "Slide from bottom"
+#~ msgstr "Przesunięcie od dołu"
+
+#~ msgid "Overlay always visible"
+#~ msgstr "Warstwa pokrywająca zawsze widoczna"
+
+#~ msgid "No content displayed"
+#~ msgstr "Nie wyświetlaj zawartości"
+
+#~ msgid "Version"
+#~ msgstr "Wersja"
+
+#~ msgid "Slide sequence from left"
+#~ msgstr "Sekwencja wjeżdżania od lewej strony"
+
+#~ msgid "Slide sequence from right"
+#~ msgstr "Sekwencja wjeżdżania od prawej strony"
+
+#~ msgid "Slide sequence from top"
+#~ msgstr "Sekwencja wjeżdżania z góry"
+
+#~ msgid "Slide sequence from bottom"
+#~ msgstr "Sekwencja wjeżdżania z dołu"
+
+#~ msgid "Elements always visible"
+#~ msgstr "Elementy zawsze widoczne"
+
+#~ msgid "Zoom in"
+#~ msgstr "Powiększenie"
+
+#~ msgid "Enter"
+#~ msgstr "Wejdź"
+
+#~ msgid "Image"
+#~ msgstr "Obraz"
+
+#~ msgid "Grand Gallery was created with the following plugins:"
+#~ msgstr "Grand Gallery powstała przy pomocy następujących wtyczek:"
+
+#~ msgid "Reset all Global Settings to default values"
+#~ msgstr "Przywróć ustawienia globalne do wartości domyślnych"
+
+#~ msgid "Grand Gallery is based on plugins: PhotoSwipe and MagnificPopup."
+#~ msgstr "Grand Gallery korzysta z pluginów: PhotoSwipe and MagnificPopup."
+
+#~ msgid "This gallery is based on plugin:"
+#~ msgstr "Ta galeria jest oparta na pluginie:"
